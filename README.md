@@ -1,6 +1,6 @@
 # ASIC
 ## DAY-0
-# iverilog
+#iverilog
 Installed iverilog using the below command.
 ```
 sudo apt-get install iverilog
