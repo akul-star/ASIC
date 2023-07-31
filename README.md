@@ -1,9 +1,12 @@
 # ASIC
-<details>
-  <summary> DAY-0</summary>
 
 ## DAY-0
-# iverilog
+<details>
+  <summary> Summary</summary>
+  Installed all the required tools.
+  </details>
+<details>
+  <summary>iverilog</summary>
 Installed iverilog using the below command.
 ```
 sudo apt-get install iverilog
@@ -12,7 +15,11 @@ sudo apt-get install iverilog
 
 success
 
-# YOSYS
+</details>
+
+<details>
+  <summary>Yosys</summary>
+  
 Installed yosys using the below command.
 ```
 $ git clone https://github.com/YosysHQ/yosys.git
@@ -29,4 +36,8 @@ $ sudo make install
 ![Screenshot from 2023-07-31 10-51-37](https://github.com/akul-star/ASIC/assets/75561390/6a941985-55f7-436d-b96c-30883cbe1ebf)
 
 Success
+
 </details>
+
+
+
