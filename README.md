@@ -1,11 +1,6 @@
 # ASIC
 <details>
-  <summary>Dropdown Title</summary>
-  
-  Dropdown content goes here.
-  
-  You can use regular Markdown formatting within the dropdown as well.
-</details>
+  <summary> DAY-0</summary>
 
 ## DAY-0
 # iverilog
@@ -34,4 +29,4 @@ $ sudo make install
 ![Screenshot from 2023-07-31 10-51-37](https://github.com/akul-star/ASIC/assets/75561390/6a941985-55f7-436d-b96c-30883cbe1ebf)
 
 Success
-
+</details>
