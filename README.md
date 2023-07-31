@@ -47,11 +47,11 @@ Success
 
 </details>
 
-
- </details>
+</details>
 
   <summary>GTKwave</summary>
   The below command was used to install GTKwave.
+  
 
   ```
 Steps to install gtkwave
