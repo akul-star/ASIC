@@ -10,7 +10,9 @@
 Installed iverilog using the below command.
 
   ```
-$ sudo apt-get install iverilog
+Steps to install iverilog
+sudo apt-get install iverilog
+
 
 ```
 ![Screenshot from 2023-07-31 10-44-58](https://github.com/akul-star/ASIC/assets/75561390/359628ab-fb18-4272-8d09-a19abffc4199)
@@ -40,6 +42,22 @@ $ sudo make install
 Success
 
 </details>
+
+<details>
+  <summary>GTKwave</summary>
+  The below command was used to install GTKwave.
+
+  ```
+Steps to install gtkwave
+sudo apt update
+sudo apt install gtkwave
+ ```
+  
+ ![Screenshot from 2023-07-31 11-13-17](https://github.com/akul-star/ASIC/assets/75561390/7a69c7e6-442e-4514-ad08-2d84bd9ec26b)
+
+ Success
+</details>
+
 
 
 
