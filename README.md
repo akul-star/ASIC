@@ -58,6 +58,28 @@ sudo apt install gtkwave
  Success
 </details>
 
+<details>
+  <summary>ngSpice</summary>
+  
+  Installed ngSpice using the below command.
+  ```
+After downloading the tarball from https://sourceforge.net/projects/ngspice/files/ to a local directory, unpack it using:
+$ tar -zxvf ngspice-37.tar.gz
+$ cd ngspice-37
+$ mkdir release
+$ cd release
+$ ../configure  --with-x --with-readline=yes --disable-debug
+$ make
+$ sudo make install
+
+  ```
+
+  ![Screenshot from 2023-07-31 11-21-50](https://github.com/akul-star/ASIC/assets/75561390/5001e4cd-b6a1-494b-8c9a-91042359996a)
+  
+  Success
+</details>
+
+
 
 
 
