@@ -115,6 +115,26 @@ Success.
 
 <details>
 
+<details>
+  <summary>OpenSTA</summary>
+  
+  I installed and built OpenSTA (including the needed packages) using the following commands:
+  ```
+sudo apt-get install cmake clang gcctcl swig bison flex
+git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
+cd OpenSTA
+mkdir build
+cd build
+cmake ..
+make
+```
+Below is the screenshot showing sucessful installation:
+![OpenSTA](https://github.com/akul-star/ASIC/assets/75561390/e040b4ad-3704-4eb6-a2a1-66cb3050493d)
+
+Success
+
+</details>
+
 
 
 
