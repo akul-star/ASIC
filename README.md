@@ -1,4 +1,12 @@
 # ASIC
+<details>
+  <summary>Dropdown Title</summary>
+  
+  Dropdown content goes here.
+  
+  You can use regular Markdown formatting within the dropdown as well.
+</details>
+
 ## DAY-0
 # iverilog
 Installed iverilog using the below command.
