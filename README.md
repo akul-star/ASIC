@@ -113,7 +113,7 @@ Results --->
 
 Success.
 
-<details>
+</details>
 
 <details>
   <summary>OpenSTA</summary>
