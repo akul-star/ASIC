@@ -1,4 +1,7 @@
 # ASIC
+ASIC stands for "Application-Specific Integrated Circuit." It is a type of integrated circuit (IC) that is designed and manufactured for a specific application or purpose. Unlike general-purpose microprocessors or other programmable devices, ASICs are optimized to perform a specific set of tasks, functions, or operations.
+
+ASICs are commonly used in various electronic devices, systems, and industries where specific and dedicated functionality is required. They offer advantages such as high performance, low power consumption, and often reduced form factors compared to using general-purpose components for the same task.
 
 ## DAY-0
 <details>
@@ -166,6 +169,7 @@ Below is the screenshot showing sucessful installation:
 
 Success
 </details>
+
 ## REFERENCES
  1. http://iverilog.icarus.com/
  2. https://github.com/steveicarus/iverilog
