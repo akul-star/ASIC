@@ -6,7 +6,7 @@ ASICs are commonly used in various electronic devices, systems, and industries w
 ## DAY-0
 <details>
  <summary> Summary</summary>
- For this course there will be various tools required that can be downloaded using the commands given below in <mark>LINUX.</mark>
+ For this course there will be various tools required that can be downloaded using the commands given below in LINUX.
   </details>
 <details>
   <summary>iverilog</summary>
@@ -107,7 +107,7 @@ Results --->
   NGSPICE is an open-source mixed-level/mixed-signal electronic circuit simulator. It is used for simulating and analyzing the behavior of analog, digital, and mixed-signal circuits. NGSPICE allows engineers, researchers, and students to model and test electronic circuits before physical implementation, aiding in design verification, testing, and optimization.
 
 Key features of NGSPICE include:
-1. Circuit Simulation: NGSPICE can simulate various types of electronic circuits, including analog, digital, and mixed-signal designs.
+1. <mark>Circuit Simulation:<mark/>  NGSPICE can simulate various types of electronic circuits, including analog, digital, and mixed-signal designs.
 
 2. Component Models: It supports a wide range of built-in models for electronic components such as resistors, capacitors, inductors, transistors, diodes, and operational 
    amplifiers.
