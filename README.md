@@ -144,7 +144,11 @@ $ sudo make install
 <details>
   <summary>magic</summary>
   
-Installed ngSpice using the below command.
+"Magic" refers to a popular open-source layout tool used for physical design and layout of integrated circuits. Magic is primarily used for designing layouts of digital and analog integrated circuits at the transistor level, which includes placing and routing of individual transistors and components.
+
+Magic provides a platform for designing and verifying the physical representation of digital circuits before they are fabricated. It allows designers to visualize, edit, and manipulate various layout aspects, including transistor placement, interconnect routing, metal layers, vias, and more. The tool is especially useful for custom IC design and is often employed in academic and research settings.
+
+Magic is often used in conjunction with other tools in the IC design flow to ensure that the layout meets certain design rules, constraints, and performance requirements.
 
 ```
 $   sudo apt-get install m4
