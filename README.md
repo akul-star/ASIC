@@ -7,14 +7,10 @@
   </details>
 <details>
   <summary>iverilog</summary>
-IVERilog (Icarus Verilog) is an open-source hardware description language (HDL) simulator. It is used for designing and testing digital circuits using hardware description languages such as Verilog. Verilog is a hardware description language used to model and simulate digital circuits, particularly in the field of digital design and electronic engineering.
-
-
-Steps to install iverilog are given below.
+IVERilog (Icarus Verilog) is an open-source hardware description language (HDL) simulator. It is used for designing and testing digital circuits using hardware description languages such as Verilog. Verilog is a hardware description language used to model and simulate digital circuits, particularly in the field of digital design and electronic engineering. Steps to install iverilog are given below ;
 
   ```
 sudo apt-get install iverilog
-
 
   ```
 Results-->
