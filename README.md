@@ -10,7 +10,7 @@ ASICs are commonly used in various electronic devices, systems, and industries w
   </details>
 <details>
   <summary>iverilog</summary>
- <span style="font-size: larger;">IVERilog (Icarus Verilog) is an open-source hardware description language (HDL) simulator. It is used for designing and testing digital circuits using hardware description languages such as Verilog. Verilog is a hardware description language used to model and simulate digital circuits, particularly in the field of digital design and electronic engineering. Steps to install iverilog are given below ;
+IVERilog (Icarus Verilog) is an open-source hardware description language (HDL) simulator. It is used for designing and testing digital circuits using hardware description languages such as Verilog. Verilog is a hardware description language used to model and simulate digital circuits, particularly in the field of digital design and electronic engineering. Steps to install iverilog are given below ;
 
   ```
 sudo apt-get install iverilog
@@ -104,7 +104,23 @@ Results --->
 <details>
   <summary>ngSpice</summary>
   
-  Installed ngSpice using the below command.
+  NGSPICE is an open-source mixed-level/mixed-signal electronic circuit simulator. It is used for simulating and analyzing the behavior of analog, digital, and mixed-signal circuits. NGSPICE allows engineers, researchers, and students to model and test electronic circuits before physical implementation, aiding in design verification, testing, and optimization.
+
+Key features of NGSPICE include:
+1. Circuit Simulation: NGSPICE can simulate various types of electronic circuits, including analog, digital, and mixed-signal designs.
+
+2. Component Models: It supports a wide range of built-in models for electronic components such as resistors, capacitors, inductors, transistors, diodes, and operational 
+   amplifiers.
+
+3. Interactive and Batch Modes: NGSPICE can be used in both interactive mode (command-line interface) and batch mode (running scripts).
+
+4. Transient Analysis: NGSPICE can perform transient analysis, which simulates circuit behavior over time, showing signal waveforms and dynamic responses.
+
+5. AC and DC Analysis: It supports AC analysis (frequency domain) and DC analysis (steady-state behavior).
+
+6. Monte Carlo Analysis: NGSPICE can perform Monte Carlo analysis to account for component tolerances and variations.
+
+7. Parameter Sweeps: It allows for parameter sweeps to analyze circuit behavior under varying conditions.
   ```
 After downloading the tarball from https://sourceforge.net/projects/ngspice/files/ to a local directory, unpack it using:
 $ tar -zxvf ngspice-37.tar.gz
@@ -211,6 +227,7 @@ Success
  3. http://www.clifford.at/yosys/
  4. https://github.com/YosysHQ/yosys
  5. https://github.com/gtkwave/gtkwave
+ 6. http://ngspice.sourceforge.net/
 
 
 
