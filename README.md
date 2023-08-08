@@ -252,6 +252,7 @@ Success
  6. http://ngspice.sourceforge.net/
  7. https://github.com/The-OpenROAD-Project/OpenSTA
  8. https://wiki.archlinux.org/title/Magic
+ 9. https://github.com/efabless/openlane/blob/master/doc/workshop/README.md
 
 
 
