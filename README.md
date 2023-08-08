@@ -210,6 +210,7 @@ Success
  2. https://github.com/steveicarus/iverilog
  3. http://www.clifford.at/yosys/
  4. https://github.com/YosysHQ/yosys
+ 5. https://github.com/gtkwave/gtkwave
 
 
 
