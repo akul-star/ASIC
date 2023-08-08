@@ -30,18 +30,19 @@ Yosys is an open-source framework for Verilog RTL (Register Transfer Level) synt
 
 Yosys provides a suite of tools that enable the synthesis and optimization of digital designs. Some of the key features and functionalities of Yosys include:
 
-1. RTL Synthesis: Yosys takes Verilog input files describing digital designs and synthesizes them into a gate-level netlist, which represents the logical connections and 
-   components of the design.
-2. Logic Optimization: Yosys performs various optimizations on the design, such as technology mapping, logic minimization, and resource sharing, to produce a more 
+1. **RTL Synthesis:** Yosys takes Verilog input files describing digital designs and synthesizes them into a gate-level netlist, which represents the logical connections 
+   and components of the design.
+   
+2. **Logic Optimization:** Yosys performs various optimizations on the design, such as technology mapping, logic minimization, and resource sharing, to produce a more 
    efficient and compact representation.
 
-3. Technology Mapping: Yosys maps the logical components of the design to the specific cells or resources available in a target FPGA or ASIC technology library.
+3. **Technology Mapping:** Yosys maps the logical components of the design to the specific cells or resources available in a target FPGA or ASIC technology library.
 
-4. Hierarchical Design: Yosys supports hierarchical design, allowing for the synthesis of complex designs composed of multiple modules or sub-modules.
+4. **Hierarchical Design:** Yosys supports hierarchical design, allowing for the synthesis of complex designs composed of multiple modules or sub-modules.
 
-5. Scripting and Automation: Yosys can be controlled through scripts, which enables designers to automate the synthesis process and customize optimization steps.
+5. **Scripting and Automation:** Yosys can be controlled through scripts, which enables designers to automate the synthesis process and customize optimization steps.
 
-6. Open Source and Community-Driven: Yosys is an open-source project with an active community of developers and users who contribute to its development and improvement.
+6. **Open Source and Community-Driven:** Yosys is an open-source project with an active community of developers and users who contribute to its development and improvement.
 
 Yosys is particularly popular in the field of digital design and electronic engineering, especially among FPGA and ASIC designers. It provides an alternative to proprietary synthesis tools and allows designers to have more control and transparency over the synthesis process.
 
@@ -74,19 +75,21 @@ GTKWave is an open-source waveform viewer used to visualize and analyze the simu
 
 Key features of GTKWave include:
 
-1. Waveform Visualization: GTKWave displays waveforms showing the behavior of digital signals over time, making it easier to identify signal transitions, timing 
+1. **Waveform Visualization:** GTKWave displays waveforms showing the behavior of digital signals over time, making it easier to identify signal transitions, timing 
    relationships, and other characteristics.
 
-2. Hierarchical Display: It supports hierarchical display of waveforms, allowing you to expand and collapse hierarchical blocks to focus on specific parts of the design.
+2. **Hierarchical Display:** It supports hierarchical display of waveforms, allowing you to expand and collapse hierarchical blocks to focus on specific parts of the 
+    design.
 
-3. Zooming and Navigation: You can zoom in and out on specific parts of the waveform and navigate through different parts of the simulation.
+3. **Zooming and Navigation:** You can zoom in and out on specific parts of the waveform and navigate through different parts of the simulation.
 
-4. Signal Highlighting: GTKWave allows you to highlight and annotate specific signal transitions for easier analysis.
+4. **Signal Highlighting:** GTKWave allows you to highlight and annotate specific signal transitions for easier analysis.
 
-5. Cross-Probing: It supports cross-probing between source code and waveforms, enabling you to trace signals back to their corresponding locations in the design source 
+5. **Cross-Probing:** It supports cross-probing between source code and waveforms, enabling you to trace signals back to their corresponding locations in the design source 
    code.
    
-6. Support for Various File Formats: GTKWave can read simulation output files in different formats, including VCD (Value Change Dump), FST (Fast Signal Trace), and others.   
+6. **Support for Various File Formats:** GTKWave can read simulation output files in different formats, including VCD (Value Change Dump), FST (Fast Signal Trace), and 
+   others.   
   
 
   ```
@@ -109,18 +112,18 @@ Results --->
 Key features of NGSPICE include:
 1. **Circuit Simulation:** NGSPICE can simulate various types of electronic circuits, including analog, digital, and mixed-signal designs.
 
-2. Component Models: It supports a wide range of built-in models for electronic components such as resistors, capacitors, inductors, transistors, diodes, and operational 
-   amplifiers.
+2. **Component Models:** It supports a wide range of built-in models for electronic components such as resistors, capacitors, inductors, transistors, diodes, and 
+    operational amplifiers.
 
-3. Interactive and Batch Modes: NGSPICE can be used in both interactive mode (command-line interface) and batch mode (running scripts).
+3. **Interactive and Batch Modes:** NGSPICE can be used in both interactive mode (command-line interface) and batch mode (running scripts).
 
-4. Transient Analysis: NGSPICE can perform transient analysis, which simulates circuit behavior over time, showing signal waveforms and dynamic responses.
+4. **Transient Analysis:** NGSPICE can perform transient analysis, which simulates circuit behavior over time, showing signal waveforms and dynamic responses.
 
-5. AC and DC Analysis: It supports AC analysis (frequency domain) and DC analysis (steady-state behavior).
+6. **AC and DC Analysis:** It supports AC analysis (frequency domain) and DC analysis (steady-state behavior).
 
-6. Monte Carlo Analysis: NGSPICE can perform Monte Carlo analysis to account for component tolerances and variations.
+7. **Monte Carlo Analysis:** NGSPICE can perform Monte Carlo analysis to account for component tolerances and variations.
 
-7. Parameter Sweeps: It allows for parameter sweeps to analyze circuit behavior under varying conditions.
+8. **Parameter Sweeps:** It allows for parameter sweeps to analyze circuit behavior under varying conditions.
   ```
 After downloading the tarball from https://sourceforge.net/projects/ngspice/files/ to a local directory, unpack it using:
 $ tar -zxvf ngspice-37.tar.gz
@@ -170,7 +173,9 @@ Success.
 <details>
   <summary>OpenSTA</summary>
   
-  I installed and built OpenSTA (including the needed packages) using the following commands:
+  OPENSTA, or Open Source Static Timing Analysis, is an open-source software tool used in the field of VLSI (Very Large Scale Integration) design for performing static timing analysis. Static timing analysis is a crucial step in digital design where the timing behavior of a digital circuit is analyzed to ensure that the circuit meets its performance requirements, such as setup and hold times, clock skew, and overall timing constraints.
+
+OPENSTA is designed to analyze the timing characteristics of a digital circuit's design, helping designers identify potential timing violations, optimize the circuit's performance, and ensure that the design meets its timing goals. Static timing analysis plays a key role in verifying the correct functionality and performance of digital designs before they are fabricated. I installed and built OpenSTA (including the needed packages) using the following commands:
   ```
 sudo apt-get install cmake clang gcctcl swig bison flex
 git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
@@ -228,6 +233,7 @@ Success
  4. https://github.com/YosysHQ/yosys
  5. https://github.com/gtkwave/gtkwave
  6. http://ngspice.sourceforge.net/
+ 7. https://github.com/The-OpenROAD-Project/OpenSTA
 
 
 
