@@ -6,7 +6,7 @@ ASICs are commonly used in various electronic devices, systems, and industries w
 ## DAY-0
 <details>
   <summary> Summary</summary>
-  Installed all the required tools.
+ For this course there will be various tools required that can be downloaded using the commands given below in LINUX.
   </details>
 <details>
   <summary>iverilog</summary>
