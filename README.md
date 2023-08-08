@@ -165,7 +165,7 @@ Below is the screenshot showing sucessful installation:
 
 
 Success
-
+</details>
 ## REFERENCES
  1. http://iverilog.icarus.com/
  2. https://github.com/steveicarus/iverilog
