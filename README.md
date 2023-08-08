@@ -168,8 +168,8 @@ Success
 
 <details>
 <summary> REFERENCES </summary>
-  1. http://iverilog.icarus.com/
-  2. https://github.com/steveicarus/iverilog
+  1. (http://iverilog.icarus.com/)
+  2. (https://github.com/steveicarus/iverilog)
   </details>
  
 
