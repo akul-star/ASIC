@@ -243,6 +243,8 @@ Below is the screenshot showing sucessful installation:
 Success
 </details>
 
+## DAY - 1
+
 ## REFERENCES
  1. http://iverilog.icarus.com/
  2. https://github.com/steveicarus/iverilog
