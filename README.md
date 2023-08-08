@@ -70,7 +70,23 @@ Success
 <details>
 
   <summary>GTKwave</summary>
-  The below command was used to install GTKwave.
+GTKWave is an open-source waveform viewer used to visualize and analyze the simulation results of digital circuits. It is often used in conjunction with digital design and hardware description languages (HDLs) like Verilog or VHDL to visualize the behavior of digital signals over time. GTKWave provides a graphical representation of simulation waveforms, making it easier to debug and analyze the functionality of digital designs.
+
+Key features of GTKWave include:
+
+1. Waveform Visualization: GTKWave displays waveforms showing the behavior of digital signals over time, making it easier to identify signal transitions, timing 
+   relationships, and other characteristics.
+
+2. Hierarchical Display: It supports hierarchical display of waveforms, allowing you to expand and collapse hierarchical blocks to focus on specific parts of the design.
+
+3. Zooming and Navigation: You can zoom in and out on specific parts of the waveform and navigate through different parts of the simulation.
+
+4. Signal Highlighting: GTKWave allows you to highlight and annotate specific signal transitions for easier analysis.
+
+5. Cross-Probing: It supports cross-probing between source code and waveforms, enabling you to trace signals back to their corresponding locations in the design source 
+   code.
+   
+6. Support for Various File Formats: GTKWave can read simulation output files in different formats, including VCD (Value Change Dump), FST (Fast Signal Trace), and others.   
   
 
   ```
@@ -192,6 +208,8 @@ Success
 ## REFERENCES
  1. http://iverilog.icarus.com/
  2. https://github.com/steveicarus/iverilog
+ 3. http://www.clifford.at/yosys/
+ 4. https://github.com/YosysHQ/yosys
 
 
 
