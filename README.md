@@ -20,14 +20,33 @@ Results-->
 
 ![Screenshot from 2023-07-31 10-44-58](https://github.com/akul-star/ASIC/assets/75561390/359628ab-fb18-4272-8d09-a19abffc4199)
 
-success
 
 </details>
 
 <details>
   <summary>Yosys</summary>
   
-Installed yosys using the below command.
+Yosys is an open-source framework for Verilog RTL (Register Transfer Level) synthesis. RTL synthesis is the process of transforming a high-level hardware description (typically written in a hardware description language like Verilog) into a lower-level representation that can be used to implement the design on hardware devices such as FPGAs (Field-Programmable Gate Arrays) or ASICs (Application-Specific Integrated Circuits).
+
+Yosys provides a suite of tools that enable the synthesis and optimization of digital designs. Some of the key features and functionalities of Yosys include:
+
+1. RTL Synthesis: Yosys takes Verilog input files describing digital designs and synthesizes them into a gate-level netlist, which represents the logical connections and 
+   components of the design.
+2. Logic Optimization: Yosys performs various optimizations on the design, such as technology mapping, logic minimization, and resource sharing, to produce a more 
+   efficient and compact representation.
+
+3. Technology Mapping: Yosys maps the logical components of the design to the specific cells or resources available in a target FPGA or ASIC technology library.
+
+4. Hierarchical Design: Yosys supports hierarchical design, allowing for the synthesis of complex designs composed of multiple modules or sub-modules.
+
+5. Scripting and Automation: Yosys can be controlled through scripts, which enables designers to automate the synthesis process and customize optimization steps.
+
+6. Open Source and Community-Driven: Yosys is an open-source project with an active community of developers and users who contribute to its development and improvement.
+
+Yosys is particularly popular in the field of digital design and electronic engineering, especially among FPGA and ASIC designers. It provides an alternative to proprietary synthesis tools and allows designers to have more control and transparency over the synthesis process.
+
+To use Yosys, you typically write Verilog code to describe your digital design, use Yosys's command-line interface or scripting capabilities to run the synthesis process, and then generate output files that can be used for further steps in the hardware design flow.
+
 ```
 $ git clone https://github.com/YosysHQ/yosys.git
 $ cd yosys-master 
