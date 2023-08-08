@@ -166,12 +166,9 @@ Below is the screenshot showing sucessful installation:
 
 Success
 
-<details>
-<summary> REFERENCES </summary>
-  1. (http://iverilog.icarus.com/)
-  2. (https://github.com/steveicarus/iverilog)
-  </details>
- 
+## REFERENCES
+ 1. http://iverilog.icarus.com/
+ 2. https://github.com/steveicarus/iverilog
 
 
 
