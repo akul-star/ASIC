@@ -244,6 +244,11 @@ Success
 </details>
 
 ## DAY - 1
+<details>
+ <summary> Summary</summary>
+
+  </details>
+
 
 ## REFERENCES
  1. http://iverilog.icarus.com/
