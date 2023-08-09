@@ -279,10 +279,15 @@ Success
 
 **TEST BENCH:** Test bench is a code necessarily written in an HDL language and is used to create set of inputs or stimulus to check whether the code written to design the required specifications is correct or not by observing the output given due to the test bench. 
 
+
+
 In summary, a test bench is a critical component of the digital design and verification process. It ensures that the design meets its intended functionality and behaves correctly across a wide range of scenarios. By using an HDL to describe both the design and the test bench, you can systematically verify the correctness of your digital circuit before moving on to physical implementation.
 
 **SIMULATOR WORKING**
 ====================
+
+Simulators are a crucial part of the VLSI design and verification process, allowing designers to test and validate their designs before actual fabrication. Basically a simulator requires two things. First is the design written according to the required specifications and the test bench to verify the design written in HDL. Simulator requires change in input, then only it will give an output to be observed. If there is no change in input. the output in obviously never given by the simulator.
+
 
 
 
