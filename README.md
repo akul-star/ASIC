@@ -296,11 +296,13 @@ Now that we have design as well as the test bench, we cab use iverilog (icarus v
 ---
 ![2](https://github.com/akul-star/ASIC/assets/75561390/464a762c-1004-4233-aca8-5721d98ce77a)
 
-
-
-
-
   </details>
+
+<details>
+ <summary> Introduction to LAB and GTKWAVE </summary>
+---
+  </details>
+
 
 
 ## REFERENCES
