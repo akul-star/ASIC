@@ -279,9 +279,6 @@ Success
 
 **TEST BENCH:** Test bench is a code necessarily written in an HDL language and is used to create set of inputs or stimulus to check whether the code written to design the required specifications is correct or not by observing the output given due to the test bench. 
 
----
-![Screenshot from 2023-08-09 17-43-08](https://github.com/akul-star/ASIC/assets/75561390/d1d37995-c3c6-4fd1-8b3c-8c3bcce1899b)
-
 
 In summary, a test bench is a critical component of the digital design and verification process. It ensures that the design meets its intended functionality and behaves correctly across a wide range of scenarios. By using an HDL to describe both the design and the test bench, you can systematically verify the correctness of your digital circuit before moving on to physical implementation.
 
@@ -289,6 +286,15 @@ In summary, a test bench is a critical component of the digital design and verif
 ====================
 
 Simulators are a crucial part of the VLSI design and verification process, allowing designers to test and validate their designs before actual fabrication. Basically a simulator requires two things. First is the design written according to the required specifications and the test bench to verify the design written in HDL. Simulator requires change in input, then only it will give an output to be observed. If there is no change in input. the output in obviously never given by the simulator.
+
+---
+![Screenshot from 2023-08-09 17-43-08](https://github.com/akul-star/ASIC/assets/75561390/d1d37995-c3c6-4fd1-8b3c-8c3bcce1899b)
+
+---
+Now that we have design as well as the test bench, we cab use iverilog (icarus verilog) to compile the two files and give an outout in form of a VCD file or a Valur Change Dump file which is only given as output if change in input is given to the simulator. This VCD (Value Change Dump) file is a standard file format used in digital simulation to capture and store the changes in signal values over time during a simulation run. This VCD file can be converted to waveforms using gtkWAVE that we installed already.
+
+---
+
 
 
 
