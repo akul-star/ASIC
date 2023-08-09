@@ -251,8 +251,8 @@ Success
 
 <details>
  <summary> INTRODUCTION TO OPEN SOURCE SIMULATOR iverilog</summary>
- ---
  
+ ---
 **SIMULATOR:**  A simulator is a tool used to verify the design written in HDL and to convert it into RTL design. The simulator we are going to use in this course is iverilog.
 
 **DESIGN:** Designing a circuit "by design" refers to creating a circuit based on a specific set of requirements or specifications. This process involves using a Hardware Description Language (HDL) like Verilog or VHDL to describe the behavior and structure of the circuit. We will later be taking an example of designing a 2x1 multiplexer (mux) using an HDL.
