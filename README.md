@@ -1,4 +1,6 @@
 # ASIC
+
+---
 ASIC stands for "Application-Specific Integrated Circuit." It is a type of integrated circuit (IC) that is designed and manufactured for a specific application or purpose. Unlike general-purpose microprocessors or other programmable devices, ASICs are optimized to perform a specific set of tasks, functions, or operations.
 
 ASICs are commonly used in various electronic devices, systems, and industries where specific and dedicated functionality is required. They offer advantages such as high performance, low power consumption, and often reduced form factors compared to using general-purpose components for the same task.
@@ -6,6 +8,8 @@ ASICs are commonly used in various electronic devices, systems, and industries w
 ## DAY-0
 <details>
  <summary> Summary</summary>
+
+ ---
  For this course there will be various tools required that can be downloaded using the commands given below in LINUX (UBUNTU).
   </details>
 <details>
