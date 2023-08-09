@@ -251,6 +251,7 @@ Success
 
 <details>
  <summary> INTRODUCTION TO OPEN SOURCE SIMULATOR iverilog</summary>
+ ---
  
 **SIMULATOR:**  A simulator is a tool used to verify the design written in HDL and to convert it into RTL design. The simulator we are going to use in this course is iverilog.
 
