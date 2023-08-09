@@ -249,6 +249,11 @@ Success
 
   </details>
 
+<details>
+ <summary> INTRODUCTION TO OPEN SOURCE SIMULATOR iverilog</summary>
+**SIMULATOR**
+  </details>
+
 
 ## REFERENCES
  1. http://iverilog.icarus.com/
