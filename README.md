@@ -279,6 +279,8 @@ Success
 
 **TEST BENCH:** Test bench is a code necessarily written in an HDL language and is used to create set of inputs or stimulus to check whether the code written to design the required specifications is correct or not by observing the output given due to the test bench. 
 
+---
+![Screenshot from 2023-08-09 17-43-08](https://github.com/akul-star/ASIC/assets/75561390/d1d37995-c3c6-4fd1-8b3c-8c3bcce1899b)
 
 
 In summary, a test bench is a critical component of the digital design and verification process. It ensures that the design meets its intended functionality and behaves correctly across a wide range of scenarios. By using an HDL to describe both the design and the test bench, you can systematically verify the correctness of your digital circuit before moving on to physical implementation.
