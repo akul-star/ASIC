@@ -308,7 +308,12 @@ Now that we have design as well as the test bench, we cab use iverilog (icarus v
 mkdir VLSI
 ```
 
-2. 
+2. Write the command given below to clone the repository from the link given in the command. In Ubuntu (or any other Linux-based system), the git clone command is used to create a copy of a Git repository from a remote source, such as a repository hosted on GitHub, GitLab, or another Git hosting service.
+
+```
+git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop
+
+```
   </details>
 
 
