@@ -121,6 +121,7 @@ Results --->
 <details>
   <summary>ngSpice</summary>
   
+  ---
   NGSPICE is an open-source mixed-level/mixed-signal electronic circuit simulator. It is used for simulating and analyzing the behavior of analog, digital, and mixed-signal circuits. NGSPICE allows engineers, researchers, and students to model and test electronic circuits before physical implementation, aiding in design verification, testing, and optimization.
 
 Key features of NGSPICE include:
@@ -149,7 +150,8 @@ $ make
 $ sudo make install
 
   ```
-
+RESULTS --->
+---
   ![Screenshot from 2023-07-31 11-21-50](https://github.com/akul-star/ASIC/assets/75561390/5001e4cd-b6a1-494b-8c9a-91042359996a)
   
   Success
@@ -157,7 +159,8 @@ $ sudo make install
 
 <details>
   <summary>magic</summary>
-  
+
+***  
 "Magic" refers to a popular open-source layout tool used for physical design and layout of integrated circuits. Magic is primarily used for designing layouts of digital and analog integrated circuits at the transistor level, which includes placing and routing of individual transistors and components.
 
 Magic provides a platform for designing and verifying the physical representation of digital circuits before they are fabricated. It allows designers to visualize, edit, and manipulate various layout aspects, including transistor placement, interconnect routing, metal layers, vias, and more. The tool is especially useful for custom IC design and is often employed in academic and research settings.
@@ -182,6 +185,7 @@ make install
 ```
 Results --->
 
+***
 ![Screenshot from 2023-07-31 11-28-33](https://github.com/akul-star/ASIC/assets/75561390/9ca6cf83-181f-4f0d-a162-f88aba0b6ca5)
 
 Success.
@@ -191,6 +195,7 @@ Success.
 <details>
   <summary>OpenSTA</summary>
   
+  ***
   OPENSTA, or Open Source Static Timing Analysis, is an open-source software tool used in the field of VLSI (Very Large Scale Integration) design for performing static timing analysis. Static timing analysis is a crucial step in digital design where the timing behavior of a digital circuit is analyzed to ensure that the circuit meets its performance requirements, such as setup and hold times, clock skew, and overall timing constraints.
 
 OPENSTA is designed to analyze the timing characteristics of a digital circuit's design, helping designers identify potential timing violations, optimize the circuit's performance, and ensure that the design meets its timing goals. Static timing analysis plays a key role in verifying the correct functionality and performance of digital designs before they are fabricated. I installed and built OpenSTA (including the needed packages) using the following commands:
@@ -213,7 +218,8 @@ Success
 <details>
   <summary>OpenLANE</summary>
   
- OpenLANE is an open-source ASIC (Application-Specific Integrated Circuit) design flow and methodology that aims to automate and streamline various steps of the digital chip design process. It is a complete RTL-to-GDSII (Register Transfer Level to GDSII layout) flow that encompasses various stages of design, including synthesis, floorplanning, placement, routing, and final layout generation. OpenLANE is designed to make ASIC design more accessible, efficient, and collaborative.
+---  
+OpenLANE is an open-source ASIC (Application-Specific Integrated Circuit) design flow and methodology that aims to automate and streamline various steps of the digital chip design process. It is a complete RTL-to-GDSII (Register Transfer Level to GDSII layout) flow that encompasses various stages of design, including synthesis, floorplanning, placement, routing, and final layout generation. OpenLANE is designed to make ASIC design more accessible, efficient, and collaborative.
 
 Key features and components of OpenLANE include:
 RTL-to-GDSII Flow: OpenLANE provides an integrated, end-to-end design flow, starting from RTL code and resulting in a manufacturable GDSII layout.
@@ -260,7 +266,7 @@ Success
 ## DAY - 1
 <details>
  <summary> Summary</summary>
-
+---
   </details>
 
 <details>
@@ -276,6 +282,7 @@ Success
 In summary, a test bench is a critical component of the digital design and verification process. It ensures that the design meets its intended functionality and behaves correctly across a wide range of scenarios. By using an HDL to describe both the design and the test bench, you can systematically verify the correctness of your digital circuit before moving on to physical implementation.
 
 **SIMULATOR WORKING**
+====================
 
 
 
