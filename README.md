@@ -294,6 +294,7 @@ Simulators are a crucial part of the VLSI design and verification process, allow
 Now that we have design as well as the test bench, we cab use iverilog (icarus verilog) to compile the two files and give an outout in form of a VCD file or a Valur Change Dump file which is only given as output if change in input is given to the simulator. This VCD (Value Change Dump) file is a standard file format used in digital simulation to capture and store the changes in signal values over time during a simulation run. This VCD file can be converted to waveforms using gtkWAVE that we installed already.
 
 ---
+![2](https://github.com/akul-star/ASIC/assets/75561390/464a762c-1004-4233-aca8-5721d98ce77a)
 
 
 
