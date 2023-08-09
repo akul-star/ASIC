@@ -299,7 +299,7 @@ Now that we have design as well as the test bench, we cab use iverilog (icarus v
   </details>
 
 <details>
- <summary> Introduction to LAB and GTKWAVE </summary>
+ <summary> INTRODUCTION TO LAB AND GTKWAVE </summary>
 ---
   </details>
 
