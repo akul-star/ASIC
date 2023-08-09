@@ -251,7 +251,19 @@ Success
 
 <details>
  <summary> INTRODUCTION TO OPEN SOURCE SIMULATOR iverilog</summary>
-**SIMULATOR**
+ 
+**SIMULATOR:**  A simulator is a tool used to verify the design written in HDL and to convert it into RTL design. The simulator we are going to use in this course is iverilog.
+
+**DESIGN:** Designing a circuit "by design" refers to creating a circuit based on a specific set of requirements or specifications. This process involves using a Hardware Description Language (HDL) like Verilog or VHDL to describe the behavior and structure of the circuit. We will later be taking an example of designing a 2x1 multiplexer (mux) using an HDL.
+
+**TEST BENCH:** Test bench is a code necessarily written in an HDL language and is used to create set of inputs or stimulus to check whether the code written to design the required specifications is correct or not by observing the output given due to the test bench. 
+
+In summary, a test bench is a critical component of the digital design and verification process. It ensures that the design meets its intended functionality and behaves correctly across a wide range of scenarios. By using an HDL to describe both the design and the test bench, you can systematically verify the correctness of your digital circuit before moving on to physical implementation.
+
+**SIMULATOR WORKING**
+
+
+
   </details>
 
 
