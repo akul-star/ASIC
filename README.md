@@ -14,6 +14,8 @@ ASICs are commonly used in various electronic devices, systems, and industries w
   </details>
 <details>
   <summary>iverilog</summary>
+
+ ---
 IVERilog (Icarus Verilog) is an open-source hardware description language (HDL) simulator. It is used for designing and testing digital circuits using hardware description languages such as Verilog. Verilog is a hardware description language used to model and simulate digital circuits, particularly in the field of digital design and electronic engineering. Steps to install iverilog are given below ;
 
   ```
@@ -22,6 +24,8 @@ sudo apt-get install iverilog
   ```
 Results-->
 
+---
+
 ![Screenshot from 2023-07-31 10-44-58](https://github.com/akul-star/ASIC/assets/75561390/359628ab-fb18-4272-8d09-a19abffc4199)
 
 
@@ -29,7 +33,8 @@ Results-->
 
 <details>
   <summary>Yosys</summary>
-  
+
+ ---
 Yosys is an open-source framework for Verilog RTL (Register Transfer Level) synthesis. RTL synthesis is the process of transforming a high-level hardware description (typically written in a hardware description language like Verilog) into a lower-level representation that can be used to implement the design on hardware devices such as FPGAs (Field-Programmable Gate Arrays) or ASICs (Application-Specific Integrated Circuits).
 
 Yosys provides a suite of tools that enable the synthesis and optimization of digital designs. Some of the key features and functionalities of Yosys include:
@@ -66,6 +71,7 @@ $ sudo make install
 ```
 Results -->
 
+---
 ![Screenshot from 2023-07-31 10-51-37](https://github.com/akul-star/ASIC/assets/75561390/6a941985-55f7-436d-b96c-30883cbe1ebf)
 
 Success
@@ -75,6 +81,8 @@ Success
 <details>
 
   <summary>GTKwave</summary>
+
+ ---
 GTKWave is an open-source waveform viewer used to visualize and analyze the simulation results of digital circuits. It is often used in conjunction with digital design and hardware description languages (HDLs) like Verilog or VHDL to visualize the behavior of digital signals over time. GTKWave provides a graphical representation of simulation waveforms, making it easier to debug and analyze the functionality of digital designs.
 
 Key features of GTKWave include:
@@ -102,6 +110,8 @@ sudo apt update
 sudo apt install gtkwave
  ```
 Results --->  
+
+---
 
  ![Screenshot from 2023-07-31 11-13-17](https://github.com/akul-star/ASIC/assets/75561390/7a69c7e6-442e-4514-ad08-2d84bd9ec26b)
 
