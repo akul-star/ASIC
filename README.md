@@ -314,6 +314,13 @@ mkdir VLSI
 git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop
 
 ```
+When this command is executed, a directory is created named **sky130RTLDesignAndSynthesisWorkshop** inside the VLSI documentary
+
+---
+Now let us open the git cloned file and explore the different files we have in the folder. From the above screenshot we can tell that we have **my_lib**, **lib**, **DC_Workshop** & **verilogfiles**.
+
+
+
   </details>
 
 
