@@ -322,6 +322,16 @@ Now let us open the git cloned file and explore the different files we have in t
 
 The **lib** file will have **sky130_fd_sc_hd__tt_025C_1v80.lib** which is a standard cell library which we will be using for our synthesis. 
 
+---
+![5](https://github.com/akul-star/ASIC/assets/75561390/4bf09347-b90b-416c-a5cc-6dd5d8391d5f)
+
+Apart from **lib** we also have a **my_lib** file inside the folder. This **my_lib** has a file named **sky130_fd_sc_hd.v** which has all the verilog codes of the standard cells like filp-flops and gates.
+
+---
+
+
+  
+ 
 
   </details>
 
