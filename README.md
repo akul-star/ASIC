@@ -314,11 +314,13 @@ mkdir VLSI
 git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop
 
 ```
-When this command is executed, a directory is created named **sky130RTLDesignAndSynthesisWorkshop** inside the VLSI documentary
-
----
+When this command is executed, a directory is created named **sky130RTLDesignAndSynthesisWorkshop** inside the VLSI documentary.
 Now let us open the git cloned file and explore the different files we have in the folder. From the above screenshot we can tell that we have **my_lib**, **lib**, **DC_Workshop** & **verilogfiles**.
 
+---
+![4](https://github.com/akul-star/ASIC/assets/75561390/f4e75920-bb3b-4dbd-b50d-b2d81d183832)
+
+The **lib** file will have **sky130_fd_sc_hd__tt_025C_1v80.lib** which is a standard cell library which we will be using for our synthesis. 
 
 
   </details>
