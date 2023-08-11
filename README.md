@@ -325,12 +325,15 @@ The **lib** file will have **sky130_fd_sc_hd__tt_025C_1v80.lib** which is a stan
 ---
 ![5](https://github.com/akul-star/ASIC/assets/75561390/4bf09347-b90b-416c-a5cc-6dd5d8391d5f)
 
-Apart from **lib** we also have a **my_lib** file inside the folder. This **my_lib** has a file named **sky130_fd_sc_hd.v** which has all the verilog codes of the standard cells like filp-flops and gates.
+Apart from **lib** we also have a **my_lib** file inside the folder. This **my_lib** has a file named **sky130_fd_sc_hd.v** which has all the verilog codes of the standard cells like basic gates.
+
+---
+![6](https://github.com/akul-star/ASIC/assets/75561390/e2ea7f2e-d4b9-4cfc-9b41-0fc29ef0b614)
+
+Lastly the cloned folder has another file names **verilog_files** which has implemented logic models like flip-flops, ADC/DAC, etc.
 
 ---
 
-
-  
  
 
   </details>
