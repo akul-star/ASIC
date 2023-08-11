@@ -333,7 +333,7 @@ Apart from **lib** we also have a **my_lib** file inside the folder. This **my_l
 Lastly the cloned folder has another file names **verilog_files** which has implemented logic models like flip-flops, ADC/DAC, etc.
 
 ---
-
+![7](https://github.com/akul-star/ASIC/assets/75561390/0b657de9-6b9a-4603-be51-8570ac40a984)
  
 
   </details>
