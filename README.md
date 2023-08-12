@@ -301,8 +301,8 @@ Now that we have design as well as the test bench, we cab use iverilog (icarus v
 <details>
  <summary> LAB's USING IVERILOG & GTKWAVE </summary>
  
- GIT CLONING
- ===============
+ *GIT CLONING*
+ ===========
 
  
  1. Make a directory using the command given below in the terminal and name it          **VLSI** 
