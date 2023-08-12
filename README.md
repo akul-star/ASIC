@@ -291,7 +291,7 @@ Simulators are a crucial part of the VLSI design and verification process, allow
 ![Screenshot from 2023-08-09 17-43-08](https://github.com/akul-star/ASIC/assets/75561390/d1d37995-c3c6-4fd1-8b3c-8c3bcce1899b)
 
 ---
-Now that we have design as well as the test bench, we cab use iverilog (icarus verilog) to compile the two files and give an outout in form of a VCD file or a Valur Change Dump file which is only given as output if change in input is given to the simulator. This VCD (Value Change Dump) file is a standard file format used in digital simulation to capture and store the changes in signal values over time during a simulation run. This VCD file can be converted to waveforms using gtkWAVE that we installed already.
+Now that we have design as well as the test bench, we cab use iverilog (icarus verilog) to compile the two files and give an outout in form of a VCD file or a Value Change Dump file which is only given as output if change in input is given to the simulator. This VCD (Value Change Dump) file is a standard file format used in digital simulation to capture and store the changes in signal values over time during a simulation run. This VCD file can be converted to waveforms using gtkWAVE that we installed already.
 
 ---
 ![2](https://github.com/akul-star/ASIC/assets/75561390/464a762c-1004-4233-aca8-5721d98ce77a)
@@ -347,6 +347,24 @@ Now we will see how to work with iverilog and GTKwave. We will do this by implem
 ---
 ![8](https://github.com/akul-star/ASIC/assets/75561390/a63f229b-1aad-48c8-be93-0974327ed8cb)
 
+Now we will load the design in iverilog. For that we will require two files from the verilog file which is verilog source file and test bench file of the 2x1 MUX. We will implement this using the following command.
+
+```
+iverilog good_mux.v tb_good_mux.v
+```
+After this we will give a command /.a.out to create the VCD (Value Chnage Dump) file named **tb_good_mux.vcd** required for the GTKwave to give output waveforms according to the changes in the input as stated in the test bench file of the MUX.
+
+```
+./a.out
+```
+
+
+We will load this VCD file in the GTKwave using the command given below.
+
+```
+gtkwave tb_good_mux.vcd
+```
+This command will open a window which will show the output of the designed mux once we append all the parameters shown in the window. We need to This is hoe we will load the design and check its functionality.
   </details>
 
 
