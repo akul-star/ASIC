@@ -357,14 +357,17 @@ After this we will give a command /.a.out to create the VCD (Value Chnage Dump) 
 ```
 ./a.out
 ```
+![9](https://github.com/akul-star/ASIC/assets/75561390/58a5ad7a-f884-420a-b9ea-7c7f6323afd3)
 
-
+---
 We will load this VCD file in the GTKwave using the command given below.
 
 ```
 gtkwave tb_good_mux.vcd
 ```
 This command will open a window which will show the output of the designed mux once we append all the parameters shown in the window. We need to This is hoe we will load the design and check its functionality.
+
+
   </details>
 
 
