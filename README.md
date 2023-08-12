@@ -330,7 +330,7 @@ Apart from **lib** we also have a **my_lib** file inside the folder. This **my_l
 ---
 ![6](https://github.com/akul-star/ASIC/assets/75561390/e2ea7f2e-d4b9-4cfc-9b41-0fc29ef0b614)
 
-Lastly the cloned folder has another file names **verilog_files** which has implemented logic models like flip-flops, ADC/DAC, etc.
+Lastly the cloned folder has another file names **verilog_files** which has all our lab experiments and will contain all oyr verilog source files abd test bench files.
 
 ---
 ![7](https://github.com/akul-star/ASIC/assets/75561390/0b657de9-6b9a-4603-be51-8570ac40a984)
