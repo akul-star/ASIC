@@ -344,6 +344,8 @@ Lastly the cloned folder has another file names **verilog_files** which has all 
 
 Now we will see how to work with iverilog and GTKwave. We will do this by implementing a simple 2x1mux with the verilog source file we already have in our directory we created by git cloning. All the verilog soutce files and their test benches are already present inside the **verilog files** as shown below.
 
+---
+![8](https://github.com/akul-star/ASIC/assets/75561390/a63f229b-1aad-48c8-be93-0974327ed8cb)
 
   </details>
 
