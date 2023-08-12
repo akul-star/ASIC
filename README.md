@@ -366,6 +366,9 @@ We will load this VCD file in the GTKwave using the command given below.
 gtkwave tb_good_mux.vcd
 ```
 This command will open a window which will show the output of the designed mux once we append all the parameters shown in the window. We need to This is hoe we will load the design and check its functionality.
+---
+![Untitled design](https://github.com/akul-star/ASIC/assets/75561390/3c227875-6f91-41a5-acc7-76c2fb69ac6b)
+
 
 
   </details>
