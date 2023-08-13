@@ -375,6 +375,13 @@ From the above waveforms obtained using gtkwave, we can check whether the MUX de
 CODE
 ====
 
+Till nnow we have studied how the design output will look like using GTKwave and iverilog. Now we will try to understand how the source verilog code and the test bench verilog code works. To open the verilog file we need to give the command mentioned below.
+
+```
+gvim tb_good_mux.v -o good_mux.v
+```
+
+
 
 
   </details>
