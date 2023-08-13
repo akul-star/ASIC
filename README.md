@@ -265,7 +265,7 @@ Success
 
 ## DAY - 1: Introduction to Verilog RTL design & sythesis
 <details>
- <summary> Summary</summary>
+ <summary> SUMMARY</summary>
 ---
   </details>
 
