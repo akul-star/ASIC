@@ -374,6 +374,7 @@ From the above waveforms obtained using gtkwave, we can check whether the MUX de
 
 *Verilog Source File*
 ====================
+![images](https://github.com/akul-star/ASIC/assets/75561390/cc0647ac-65e8-4fd6-8a47-e88c189a1096)
 
 Till now we have studied how the design output will look like using GTKwave and iverilog. Now we will try to understand how the source verilog code and the test bench verilog code works. To open the verilog file we need to give the command mentioned below.
 ```
