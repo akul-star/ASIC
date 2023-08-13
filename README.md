@@ -372,6 +372,10 @@ This command will load the VCD file in the GTKwave simulator. A window will pop 
 
 From the above waveforms obtained using gtkwave, we can check whether the MUX designed is working according to its functionality ot not.
 
+CODE
+====
+
+
 
   </details>
 
