@@ -385,6 +385,11 @@ You can use the **gvim** command to launch the graphical version of the Vim text
 Verilog Design File
 ===================
 
+![verilog](https://github.com/akul-star/ASIC/assets/75561390/a64802e7-374a-4e4a-99f7-0c71443011f6)
+Their are multiple ways of coding a mux in verilog and this is just an illustrative example. As you can see inputs and outputs are defined in the design file inputs being i0, i1 and select line &  output is **y** as it should be in a multiplexer. **Always Block** is used to implement the logic where, if select line is high i1 is taken as output and if select line is low then i0 is used as the output.
+
+Test Bench File
+===============
 
 
 
