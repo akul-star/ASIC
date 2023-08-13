@@ -5,7 +5,7 @@ ASIC stands for "Application-Specific Integrated Circuit." It is a type of integ
 
 ASICs are commonly used in various electronic devices, systems, and industries where specific and dedicated functionality is required. They offer advantages such as high performance, low power consumption, and often reduced form factors compared to using general-purpose components for the same task.
 
-## DAY-0
+## DAY-0 : Software Installation
 <details>
  <summary> Summary</summary>
 
@@ -263,7 +263,7 @@ Below is the screenshot showing sucessful installation:
 Success
 </details>
 
-## DAY - 1
+## DAY - 1 : Introduction to Verilog RTL design & sythesis
 <details>
  <summary> Summary</summary>
 ---
