@@ -376,7 +376,6 @@ From the above waveforms obtained using gtkwave, we can check whether the MUX de
 ====================
 
 Till now we have studied how the design output will look like using GTKwave and iverilog. Now we will try to understand how the source verilog code and the test bench verilog code works. To open the verilog file we need to give the command mentioned below.
-
 ```
 gvim tb_good_mux.v -o good_mux.v
 ```
@@ -391,7 +390,7 @@ Their are multiple ways of coding a mux in verilog and this is just an illustrat
 Test Bench File
 ===============
 ![TB](https://github.com/akul-star/ASIC/assets/75561390/e1f59e9f-f05d-464b-a223-99e06d074b8b)
-A test bench file in the context of hardware description languages like Verilog is a special type of Verilog code that is used to simulate and verify the behavior of a digital design described in another Verilog design file. This testbench file basically selects the select line as 1 and 0 every 75ns. **dumpfile ("tb_good_mux.vcd")** and **dump (0,tb_good_mux)** will make the dump file for the GTKwave output waveforms.
+A test bench file in the context of hardware description languages like Verilog is a special type of Verilog code that is used to simulate and verify the behavior of a digital design described in another Verilog design file. We will be instantiating the verilof design file here in the test bench. This testbench file which is names uut (unit under test) basically selects the select line as 1 and 0 every 75ns. **dumpfile ("tb_good_mux.vcd")** and **dump (0,tb_good_mux)** will make the dump file for the GTKwave output waveforms.
 
 
 
