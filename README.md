@@ -390,6 +390,8 @@ Their are multiple ways of coding a mux in verilog and this is just an illustrat
 
 Test Bench File
 ===============
+![TB](https://github.com/akul-star/ASIC/assets/75561390/e1f59e9f-f05d-464b-a223-99e06d074b8b)
+A test bench file in the context of hardware description languages like Verilog is a special type of Verilog code that is used to simulate and verify the behavior of a digital design described in another Verilog design file. This testbench file basically selects the select line as 1 and 0 every 75ns. **dumpfile ("tb_good_mux.vcd")** and **dump (0,tb_good_mux)** will make the dump file for the GTKwave output waveforms.
 
 
 
