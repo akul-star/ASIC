@@ -372,14 +372,19 @@ This command will load the VCD file in the GTKwave simulator. A window will pop 
 
 From the above waveforms obtained using gtkwave, we can check whether the MUX designed is working according to its functionality ot not.
 
-*CODE*
-=====
+*Verilog Source File*
+====================
 
-Till nnow we have studied how the design output will look like using GTKwave and iverilog. Now we will try to understand how the source verilog code and the test bench verilog code works. To open the verilog file we need to give the command mentioned below.
+Till now we have studied how the design output will look like using GTKwave and iverilog. Now we will try to understand how the source verilog code and the test bench verilog code works. To open the verilog file we need to give the command mentioned below.
 
 ```
 gvim tb_good_mux.v -o good_mux.v
 ```
+You can use the **gvim** command to launch the graphical version of the Vim text editor, also known as "GVim" (Graphical Vim). GVim provides a graphical user interface (GUI) in addition to the usual text-based interface of Vim. 
+
+Verilog Design File
+===================
+
 
 
 
