@@ -394,7 +394,7 @@ Test Bench File
 A test bench file in the context of hardware description languages like Verilog is a special type of Verilog code that is used to simulate and verify the behavior of a digital design described in another Verilog design file. We will be instantiating the verilof design file here in the test bench. This testbench file which is names uut (unit under test) basically selects the select line as 1 and 0 every 75ns. **dumpfile ("tb_good_mux.vcd")** and **dump (0,tb_good_mux)** will make the dump file for the GTKwave output waveforms.
 
 
-INTRODUCTION TO YOSYS
+*INTRODUCTION TO YOSYS*
 ======================
 
 A synthesizer, also known as a synthesis tool or RTL (Register Transfer Level) synthesizer, refers to software that takes a high-level hardware description language (HDL) representation, such as Verilog or VHDL, and converts it into a lower-level gate-level or structural netlist representation. This process is known as synthesis and we will be using **YOSYS** as out synthesis tool. 
