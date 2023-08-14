@@ -415,6 +415,8 @@ A synthesizer, also known as a synthesis tool or RTL (Register Transfer Level) s
 
 **Synthesis Verification -** We can verify the gate level synthesis dine by YOSYS using **Netlist file** and **Test Bench File**. 
 ![Verify](https://github.com/akul-star/ASIC/assets/75561390/35787fbc-8035-4aa9-adf7-b3c75acf5214)
+---
+If the output waveforms match to that of the RTL simulation, then our design on gate-level is correct and hence our NETLIST is correct. 
 
 
 
