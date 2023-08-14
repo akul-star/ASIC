@@ -486,6 +486,9 @@ The below screenshot shows what text to expect after the command given.
 ```
 read_verilog good_mux.v
 ```
+![readverilog](https://github.com/akul-star/ASIC/assets/75561390/36d7418a-9d0c-48e3-b8ed-4c3471aa4400)
+---
+
 
 **STEP-4:** In YOSYS, the synth -top <top_module_name> command is used to initiate the synthesis process and specify the top-level module of your design. This command tells YOSYS to perform synthesis starting from the specified top-level module defined in the given Verilog file (filename.v in your case). The synthesis process transforms the high-level RTL (Register Transfer Level) description of your design into a lower-level representation, typically a gate-level netlist.
 
@@ -495,6 +498,14 @@ synth -top good_mux
  
 ![synth](https://github.com/akul-star/ASIC/assets/75561390/7f61bd2d-348e-485d-acf4-8cc06628a597)
 ---
+
+**STEP-5:** In YOSYS, the abc -liberty command is used to perform technology mapping using the ABC tool and a specified liberty file. The -liberty option is used to specify a liberty file that contains information about the available cells and their timing characteristics in a target technology library. Liberty files are commonly used to guide the synthesis process, ensuring that the generated gate-level netlist is compatible with the target technology's characteristics and constraints. The command to implement is given below.
+
+```
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+Now finally we can say that our synthesis has been completed and the result of the above command will be a NETLIST as shown below.
+
 
   </details>
 
