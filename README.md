@@ -462,6 +462,7 @@ Here are some common flavors you might find for the same gate in a standard cell
  LAB-3: YOSYS 1 GOOD MUX
  ========================
  In this lab we will have an introduction to out synthesizer (YOSYS). Till now we have designed a multiplexer, compiled the verilog files and observed the output waveforms on GTKwave. Now we will use YOSYS to form netlist using the standard cells we have in the library and we will observe the graphical version of logic it has realized.
+
  **STEP-1:** Firstly we will invoke the YOSYS using the below command.
  ```
 yosys
