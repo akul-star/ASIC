@@ -478,7 +478,21 @@ read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 The below screenshot shows what text to expect after the command given.
 
+![realiverty](https://github.com/akul-star/ASIC/assets/75561390/ab0051f4-b6b4-4d95-b6ca-b4c3e08874c2)
 ---
+
+**STEP-3:** In YOSYS, the read_verilog command is used to read and parse Verilog hardware description files (.v files). When you use the read_verilog command in YOSYS, you are essentially instructing YOSYS to read and analyze a Verilog file, extracting information about modules, signals, ports, instances, and other elements of the design. This information is then used in subsequent steps of the synthesis process. Therefore, to ectract the information about the design we will have to give the command stated below.
+
+```
+read_verilog good_mux.v
+```
+**STEP-4:** In YOSYS, the synth -top <top_module_name> command is used to initiate the synthesis process and specify the top-level module of your design. This command tells YOSYS to perform synthesis starting from the specified top-level module defined in the given Verilog file (filename.v in your case). The synthesis process transforms the high-level RTL (Register Transfer Level) description of your design into a lower-level representation, typically a gate-level netlist.
+
+```
+synth -top good_mux
+```
+
+
 
   ![readliberty](https://github.com/akul-star/ASIC/assets/75561390/23fd606a-8a62-4090-a6e5-6b8dfea37892) 
   </details>
