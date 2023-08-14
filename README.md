@@ -510,8 +510,8 @@ Now finally we can say that our synthesis has been completed and the result of t
 ---
 
 We can give the command **show** to get a graphical cersion of logic it has realized.
-
-
+![show](https://github.com/akul-star/ASIC/assets/75561390/9416a5a8-b21e-41f1-96eb-64f4ad3a309b)
+---
 
   </details>
 
