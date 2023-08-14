@@ -522,10 +522,16 @@ write_verilog -noattr good_mux_netlist.v
 ---
 ![netlistvim](https://github.com/akul-star/ASIC/assets/75561390/104f0b3b-59a4-4ba4-b1af-a2a937682480)
 
+ </details>
 
+## DAY-2: Timing libs, hierarchical vs flat synthesis and efficient flop coding styles
 
+ <summary> INTRODUCTION TO Timing.libs</summary>
 
+ ---
+ 
   </details>
+<details>
 
 
 
