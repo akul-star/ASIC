@@ -471,7 +471,12 @@ A prompt window will pop up as shown below.
 
 ![yosyspropmt](https://github.com/akul-star/ASIC/assets/75561390/d909606c-89ab-40ab-8b85-644f1f4ada69)
 ---
-asadfaf
+**STEP-2:** Now we will read the library file using the below mentioned command. The read_liberty command in Yosys is used to read and parse a Liberty library file, making its information available for the synthesis and optimization processes.
+
+```
+read_verilog good_mux.v
+```
+
    
   </details>
 
