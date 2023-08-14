@@ -506,6 +506,12 @@ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 Now finally we can say that our synthesis has been completed and the result of the above command will be a NETLIST as shown below.
 
+![Netlist](https://github.com/akul-star/ASIC/assets/75561390/971321c4-9a6c-43c9-a692-a27ba3d822d1)
+---
+
+We can give the command **show** to get a graphical cersion of logic it has realized.
+
+
 
   </details>
 
