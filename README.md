@@ -468,6 +468,9 @@ yosys
 ```
 A prompt window will pop up as shown below.
 
+![yosyspropmt](https://github.com/akul-star/ASIC/assets/75561390/d909606c-89ab-40ab-8b85-644f1f4ada69)
+---
+asadfaf
    
   </details>
 
