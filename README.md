@@ -476,6 +476,9 @@ A prompt window will pop up as shown below.
 ```
 read_verilog good_mux.v
 ```
+The below screenshot shows what text to expect after the command given.
+![readliberty](https://github.com/akul-star/ASIC/assets/75561390/23fd606a-8a62-4090-a6e5-6b8dfea37892)
+---
 
    
   </details>
