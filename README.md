@@ -519,6 +519,8 @@ Also, if we want to view the netlist in the vim editor, the below two commands a
 write_verilog good_mux_netlist.v
 gvim good_mux_netlist.v
 ```
+---
+![netlistvim](https://github.com/akul-star/ASIC/assets/75561390/104f0b3b-59a4-4ba4-b1af-a2a937682480)
 
 
 
