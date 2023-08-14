@@ -397,7 +397,10 @@ A test bench file in the context of hardware description languages like Verilog 
 INTRODUCTION TO YOSYS
 ======================
 
+A synthesizer, also known as a synthesis tool or RTL (Register Transfer Level) synthesizer, refers to software that takes a high-level hardware description language (HDL) representation, such as Verilog or VHDL, and converts it into a lower-level gate-level or structural netlist representation. This process is known as synthesis and we will be using **YOSYS** as out synthesis tool.
 
+
+**YOSYS** requires **.lib** file which refers to a library file that contains timing, power, and other characterization information for a set of standard cells or gates and the design file to know which design has to be implemented ot which design has to br converted from RTL to lower-level gate level netlist.  
 
   </details>
 
