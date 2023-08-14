@@ -399,7 +399,7 @@ A test bench file in the context of hardware description languages like Verilog 
  <summary>Introduction to YOSYS & Logic Synthesis</summary>
 
 
-**1. INTRODUCTION TO YOSYS**
+*1. INTRODUCTION TO YOSYS*
    =======================
 
 
@@ -426,7 +426,7 @@ A synthesizer, also known as a synthesis tool or RTL (Register Transfer Level) s
 If the output waveforms match to that of the RTL simulation, then our design on gate-level is correct and hence our NETLIST is correct. 
 
 
-**2. LOGIC SYNTHESIS**
+*2. LOGIC SYNTHESIS*
    ===============
 Till now we have learned how a synthesis tool helps us obtain the digital logic circuit from an RTL design. We know that the two  files required to be given as an input to the synthesis tools are RTL design and Front End LIB file. Now let us know more about the library file and various standard cells it has.
 
