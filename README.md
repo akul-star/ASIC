@@ -516,8 +516,8 @@ We can give the command **show** to get a graphical version of logic the synthes
 
 Also, if we want to view the netlist in the vim editor, the below two commands are need to be given.
 ```
-write_verilog good_mux_netlist.v
-gvim good_mux_netlist.v
+write_verilog -noattr good_mux_netlist.v
+!gvim good_mux_netlist.v
 ```
 ---
 ![netlistvim](https://github.com/akul-star/ASIC/assets/75561390/104f0b3b-59a4-4ba4-b1af-a2a937682480)
