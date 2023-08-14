@@ -396,7 +396,7 @@ A test bench file in the context of hardware description languages like Verilog 
 </details>
 
 <details>
- <summary> Introduction to YOSYS & Logic Synthesis</summary>
+ <summary>Introduction to YOSYS & Logic Synthesis</summary>
 
 
 1. INTRODUCTION TO YOSYS
