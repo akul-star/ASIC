@@ -397,11 +397,17 @@ A test bench file in the context of hardware description languages like Verilog 
 INTRODUCTION TO YOSYS
 ======================
 
-A synthesizer, also known as a synthesis tool or RTL (Register Transfer Level) synthesizer, refers to software that takes a high-level hardware description language (HDL) representation, such as Verilog or VHDL, and converts it into a lower-level gate-level or structural netlist representation. This process is known as synthesis and we will be using **YOSYS** as out synthesis tool.
+A synthesizer, also known as a synthesis tool or RTL (Register Transfer Level) synthesizer, refers to software that takes a high-level hardware description language (HDL) representation, such as Verilog or VHDL, and converts it into a lower-level gate-level or structural netlist representation. This process is known as synthesis and we will be using **YOSYS** as out synthesis tool. 
+
+![yosys1](https://github.com/akul-star/ASIC/assets/75561390/df8f6286-69f8-4a78-bab8-44ae72ee4ac5)
+---
+
+**YOSYS** requires **.lib** file which refers to a library file that contains timing, power, and other characterization information for a set of standard cells or gates and the design file to know which design has to be implemented ot which design has to br converted from RTL to lower-level gate level netlist.
 
 
-**YOSYS** requires **.lib** file which refers to a library file that contains timing, power, and other characterization information for a set of standard cells or gates and the design file to know which design has to be implemented ot which design has to br converted from RTL to lower-level gate level netlist.  
 
+
+The read_verilog command is a command used in Verilog-based simulation and synthesis environments like YOSYS. It is used to read and parse Verilog source files and make the design's information available to the tool for further analysis, simulation, synthesis, or other operations. The read_liberty command is to read and parse Liberty files ot lib files. Liberty files, often with the .lib extension, contain timing, power, and other characterization data for standard cells or gates used in digital design. These files provide critical information for synthesis, optimization, and analysis of digital designs.
   </details>
 
 
