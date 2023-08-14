@@ -445,14 +445,14 @@ The library files may not be exhaustive of all the gates we want, but it will be
 
 Here are some common flavors you might find for the same gate in a standard cell library:
 
-    Fast:
-        These cells are optimized for speed and have a lower propagation delay.
-        They are suitable for critical paths and designs where performance is a priority.
-        Fast cells might consume more power and occupy more area compared to other flavors.
+  -  Fast:
+        - These cells are optimized for speed and have a lower propagation delay.
+        - They are suitable for critical paths and designs where performance is a priority.
+        - Fast cells might consume more power and occupy more area compared to other flavors.
 
-    Slow:
-        These cells are optimized for low power consumption and typically have a longer propagation delay.
-        They are used in non-critical paths or parts of the design where power efficiency is more important than speed.
+   - Slow:
+        - These cells are optimized for low power consumption and typically have a longer propagation delay.
+        - They are used in non-critical paths or parts of the design where power efficiency is more important than speed.
   </details>
 
 
