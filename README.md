@@ -407,7 +407,9 @@ A synthesizer, also known as a synthesis tool or RTL (Register Transfer Level) s
 
 
 
-The read_verilog command is a command used in Verilog-based simulation and synthesis environments like YOSYS. It is used to read and parse Verilog source files and make the design's information available to the tool for further analysis, simulation, synthesis, or other operations. The read_liberty command is to read and parse Liberty files ot lib files. Liberty files, often with the .lib extension, contain timing, power, and other characterization data for standard cells or gates used in digital design. These files provide critical information for synthesis, optimization, and analysis of digital designs.
+- The read_verilog command is a command used in Verilog-based simulation and synthesis environments like YOSYS. It is used to read and parse Verilog source files and make the design's information available to the tool for further analysis, simulation, synthesis, or other operations.
+- The read_liberty command is to read and parse Liberty files ot lib files. Liberty files, often with the .lib extension, contain timing, power, and other characterization data for standard cells or gates used in digital design. These files provide critical information for synthesis, optimization, and analysis of digital designs.
+-  The write_verilog command is used in the Yosys open-source digital synthesis tool. Yosys is commonly used for RTL synthesis and various other digital design tasks. The write_verilog command in Yosys is used to output the synthesized design in Verilog format.
   </details>
 
 
