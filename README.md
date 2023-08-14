@@ -486,15 +486,16 @@ The below screenshot shows what text to expect after the command given.
 ```
 read_verilog good_mux.v
 ```
+
 **STEP-4:** In YOSYS, the synth -top <top_module_name> command is used to initiate the synthesis process and specify the top-level module of your design. This command tells YOSYS to perform synthesis starting from the specified top-level module defined in the given Verilog file (filename.v in your case). The synthesis process transforms the high-level RTL (Register Transfer Level) description of your design into a lower-level representation, typically a gate-level netlist.
 
 ```
 synth -top good_mux
 ```
+ 
+![synth](https://github.com/akul-star/ASIC/assets/75561390/7f61bd2d-348e-485d-acf4-8cc06628a597)
+---
 
-
-
-  ![readliberty](https://github.com/akul-star/ASIC/assets/75561390/23fd606a-8a62-4090-a6e5-6b8dfea37892) 
   </details>
 
 
