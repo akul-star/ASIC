@@ -383,13 +383,13 @@ gvim tb_good_mux.v -o good_mux.v
 You can use the **gvim** command to launch the graphical version of the Vim text editor, also known as "GVim" (Graphical Vim). GVim provides a graphical user interface (GUI) in addition to the usual text-based interface of Vim. 
 
 1. Verilog Design File
-======================
+   =====================
 
 ![verilog](https://github.com/akul-star/ASIC/assets/75561390/a64802e7-374a-4e4a-99f7-0c71443011f6)
 Their are multiple ways of coding a mux in verilog and this is just an illustrative example. As you can see inputs and outputs are defined in the design file inputs being i0, i1 and select line &  output is **y** as it should be in a multiplexer. **Always Block** is used to implement the logic where, if select line is high i1 is taken as output and if select line is low then i0 is used as the output.
 
 2. Test Bench File
-===================
+   ==============
 ![TB](https://github.com/akul-star/ASIC/assets/75561390/e1f59e9f-f05d-464b-a223-99e06d074b8b)
 A test bench file in the context of hardware description languages like Verilog is a special type of Verilog code that is used to simulate and verify the behavior of a digital design described in another Verilog design file. We will be instantiating the verilof design file here in the test bench. This testbench file which is names uut (unit under test) basically selects the select line as 1 and 0 every 75ns. **dumpfile ("tb_good_mux.vcd")** and **dump (0,tb_good_mux)** will make the dump file for the GTKwave output waveforms.
 
@@ -397,11 +397,11 @@ A test bench file in the context of hardware description languages like Verilog 
 *INTRODUCTION TO YOSYS & LOGIC SYNTHESIS*
 ========================================
 
-1. *INTRODUCTION TO YOSYS*
+1. INTRODUCTION TO YOSYS
    =======================
 
 
-A synthesizer, also known as a synthesis tool or RTL (Register Transfer Level) synthesizer, refers to software that takes a high-level hardware description language (HDL) representation, such as Verilog or VHDL, and converts it into a lower-level gate-level or structural netlist representation. This process is known as synthesis and we will be using **YOSYS** as out synthesis tool. 
+A synthesizer, also known as a synthesis tool or RTL (Register Transfer Level) synthesizer, refers to software that takes a high-level hardware description language (HDL) representation, such as Verilog or VHDL, and converts it into a lower-level gate-level or structural netlist representation. This process is known as synthesis and we will be using **YOSYS** as our synthesis tool. 
 
 ![yosys1](https://github.com/akul-star/ASIC/assets/75561390/df8f6286-69f8-4a78-bab8-44ae72ee4ac5)
 ---
@@ -414,7 +414,7 @@ A synthesizer, also known as a synthesis tool or RTL (Register Transfer Level) s
 
 - The read_verilog command is a command used in Verilog-based simulation and synthesis environments like YOSYS. It is used to read and parse Verilog source files and make the design's information available to the tool for further analysis, simulation, synthesis, or other operations.
 - The read_liberty command is to read and parse Liberty files ot lib files. Liberty files, often with the .lib extension, contain timing, power, and other characterization data for standard cells or gates used in digital design. These files provide critical information for synthesis, optimization, and analysis of digital designs.
--  The write_verilog command is used in the Yosys open-source digital synthesis tool. Yosys is commonly used for RTL synthesis and various other digital design tasks. The write_verilog command in Yosys is used to output the synthesized design in Verilog format.
+-  The write_verilog command is used in the Yosys open-source digital synthesis tool. Yosys is commonly used for RTL synthesis and various other digital design tasks. The write_verilog command in Yosys is used to output the synthesized design in Verilog format which is known as a NETLIST. A netlist is a fundamental representation of a digital circuit's logical and physical structure. It describes the interconnections between electronic components, such as gates, flip-flops, and other functional units, using a list of interconnected nets (signal lines) and their connections.
 
 
 **Synthesis Verification -** We can verify the gate level synthesis dine by YOSYS using **Netlist file** and **Test Bench File**. 
@@ -424,8 +424,33 @@ A synthesizer, also known as a synthesis tool or RTL (Register Transfer Level) s
 If the output waveforms match to that of the RTL simulation, then our design on gate-level is correct and hence our NETLIST is correct. 
 
 
+2. LOGIC SYNTHESIS
+   ===============
+Till now we have learned how a synthesis tool helps us obtain the digital logic circuit from an RTL design. We know that the two  files required to be given as an input to the synthesis tools are RTL design and Front End LIB file. Now let us know more about the library file and various standard cells it has.
 
+1. Combinational Logic Cells
+2. Latches and Flip-Flops
+3. Buffers and Inverters
+4. Arithmetic Logic Units (ALUs)
+5. Multiplexers and Demultiplexers
+6. Shift Registers and Counters
+7. Decoder and Encoder
+8. Comparator and Magnitude Comparator
+9. Tri-State Buffers
+10. Special Purpose Cells
 
+The library files may not be exhaustive of all the gates we want, but it will be rich enough to implement any logic functionality. In a standard cell library file (.lib), you might encounter different flavors of the same gate. These different flavors represent variations of the same basic gate logic that are optimized for specific purposes, such as different performance, power consumption, or area trade-offs. These flavors allow designers to choose the best-suited cell for their specific design requirements.
+
+Here are some common flavors you might find for the same gate in a standard cell library:
+
+    Fast:
+        These cells are optimized for speed and have a lower propagation delay.
+        They are suitable for critical paths and designs where performance is a priority.
+        Fast cells might consume more power and occupy more area compared to other flavors.
+
+    Slow:
+        These cells are optimized for low power consumption and typically have a longer propagation delay.
+        They are used in non-critical paths or parts of the design where power efficiency is more important than speed.
   </details>
 
 
