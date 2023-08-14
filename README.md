@@ -457,9 +457,11 @@ Here are some common flavors you might find for the same gate in a standard cell
 
   <details>
  <summary>LABS USING YOSYS & SKY130 PDKs</summary>
- 
----
- 
+ ---
+   
+ LAB-3: YOSYS 1 GOOD MUX
+ ========================
+   
   </details>
 
 
