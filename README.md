@@ -509,7 +509,7 @@ Now finally we can say that our synthesis has been completed and the result of t
 ![Netlist](https://github.com/akul-star/ASIC/assets/75561390/971321c4-9a6c-43c9-a692-a27ba3d822d1)
 ---
 
-We can give the command **show** to get a graphical cersion of logic it has realized.
+We can give the command **show** to get a graphical version of logic the synthesizer has realized.
 
 ![show](https://github.com/akul-star/ASIC/assets/75561390/9416a5a8-b21e-41f1-96eb-64f4ad3a309b)
 ---
@@ -519,6 +519,7 @@ Also, if we want to view the netlist in the vim editor, the below two commands a
 write_verilog good_mux_netlist.v
 gvim good_mux_netlist.v
 ```
+
 
 
 
