@@ -455,6 +455,13 @@ Here are some common flavors you might find for the same gate in a standard cell
         - They are used in non-critical paths or parts of the design where power efficiency is more important than speed.
   </details>
 
+  <details>
+ <summary>LABS USING YOSYS & SKY130 PDKs</summary>
+ 
+---
+ 
+  </details>
+
 
 
 ## REFERENCES
