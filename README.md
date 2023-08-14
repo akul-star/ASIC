@@ -405,7 +405,8 @@ A synthesizer, also known as a synthesis tool or RTL (Register Transfer Level) s
 **YOSYS** requires **.lib** file which refers to a library file that contains timing, power, and other characterization information for a set of standard cells or gates and the design file to know which design has to be implemented ot which design has to br converted from RTL to lower-level gate level netlist.
 
 
-
+![YOSYS2](https://github.com/akul-star/ASIC/assets/75561390/37b1e6d4-8d24-4f5a-8d24-8820be8874d9)
+---
 
 - The read_verilog command is a command used in Verilog-based simulation and synthesis environments like YOSYS. It is used to read and parse Verilog source files and make the design's information available to the tool for further analysis, simulation, synthesis, or other operations.
 - The read_liberty command is to read and parse Liberty files ot lib files. Liberty files, often with the .lib extension, contain timing, power, and other characterization data for standard cells or gates used in digital design. These files provide critical information for synthesis, optimization, and analysis of digital designs.
