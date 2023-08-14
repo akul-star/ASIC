@@ -301,8 +301,8 @@ Now that we have design as well as the test bench, we cab use iverilog (icarus v
 <details>
  <summary> LAB's USING IVERILOG & GTKWAVE </summary>
  
- *GIT CLONING*
- ===========
+ *LAB-1: GIT CLONING*
+ ===================
 
  
  1. Make a directory using the command given below in the terminal and name it          **VLSI** 
@@ -339,8 +339,8 @@ Lastly the cloned folder has another file names **verilog_files** which has all 
 ![7](https://github.com/akul-star/ASIC/assets/75561390/0b657de9-6b9a-4603-be51-8570ac40a984)
 
 
-*Introduction to Iverilog & GTKwave*
-====================================
+*LAB-2: Introduction to Iverilog & GTKwave*
+==========================================
 
 Now we will see how to work with iverilog and GTKwave. We will do this by implementing a simple 2x1mux with the verilog source file we already have in our directory we created by git cloning. All the verilog soutce files and their test benches are already present inside the **verilog files** as shown below.
 
@@ -417,6 +417,7 @@ A synthesizer, also known as a synthesis tool or RTL (Register Transfer Level) s
 ![Verify](https://github.com/akul-star/ASIC/assets/75561390/35787fbc-8035-4aa9-adf7-b3c75acf5214)
 ---
 If the output waveforms match to that of the RTL simulation, then our design on gate-level is correct and hence our NETLIST is correct. 
+
 
 
 
