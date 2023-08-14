@@ -393,9 +393,11 @@ Their are multiple ways of coding a mux in verilog and this is just an illustrat
 ![TB](https://github.com/akul-star/ASIC/assets/75561390/e1f59e9f-f05d-464b-a223-99e06d074b8b)
 A test bench file in the context of hardware description languages like Verilog is a special type of Verilog code that is used to simulate and verify the behavior of a digital design described in another Verilog design file. We will be instantiating the verilof design file here in the test bench. This testbench file which is names uut (unit under test) basically selects the select line as 1 and 0 every 75ns. **dumpfile ("tb_good_mux.vcd")** and **dump (0,tb_good_mux)** will make the dump file for the GTKwave output waveforms.
 
+</details>
 
-*INTRODUCTION TO YOSYS & LOGIC SYNTHESIS*
-========================================
+<details>
+ <summary> Introduction to YOSYS & Logic Synthesis</summary>
+
 
 1. INTRODUCTION TO YOSYS
    =======================
