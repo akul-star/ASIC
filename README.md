@@ -382,20 +382,24 @@ gvim tb_good_mux.v -o good_mux.v
 ```
 You can use the **gvim** command to launch the graphical version of the Vim text editor, also known as "GVim" (Graphical Vim). GVim provides a graphical user interface (GUI) in addition to the usual text-based interface of Vim. 
 
-Verilog Design File
-===================
+1. Verilog Design File
+======================
 
 ![verilog](https://github.com/akul-star/ASIC/assets/75561390/a64802e7-374a-4e4a-99f7-0c71443011f6)
 Their are multiple ways of coding a mux in verilog and this is just an illustrative example. As you can see inputs and outputs are defined in the design file inputs being i0, i1 and select line &  output is **y** as it should be in a multiplexer. **Always Block** is used to implement the logic where, if select line is high i1 is taken as output and if select line is low then i0 is used as the output.
 
-Test Bench File
-===============
+2. Test Bench File
+===================
 ![TB](https://github.com/akul-star/ASIC/assets/75561390/e1f59e9f-f05d-464b-a223-99e06d074b8b)
 A test bench file in the context of hardware description languages like Verilog is a special type of Verilog code that is used to simulate and verify the behavior of a digital design described in another Verilog design file. We will be instantiating the verilof design file here in the test bench. This testbench file which is names uut (unit under test) basically selects the select line as 1 and 0 every 75ns. **dumpfile ("tb_good_mux.vcd")** and **dump (0,tb_good_mux)** will make the dump file for the GTKwave output waveforms.
 
 
-*INTRODUCTION TO YOSYS*
-======================
+*INTRODUCTION TO YOSYS & LOGIC SYNTHESIS*
+========================================
+
+1. *INTRODUCTION TO YOSYS*
+   =======================
+
 
 A synthesizer, also known as a synthesis tool or RTL (Register Transfer Level) synthesizer, refers to software that takes a high-level hardware description language (HDL) representation, such as Verilog or VHDL, and converts it into a lower-level gate-level or structural netlist representation. This process is known as synthesis and we will be using **YOSYS** as out synthesis tool. 
 
@@ -414,6 +418,7 @@ A synthesizer, also known as a synthesis tool or RTL (Register Transfer Level) s
 
 
 **Synthesis Verification -** We can verify the gate level synthesis dine by YOSYS using **Netlist file** and **Test Bench File**. 
+
 ![Verify](https://github.com/akul-star/ASIC/assets/75561390/35787fbc-8035-4aa9-adf7-b3c75acf5214)
 ---
 If the output waveforms match to that of the RTL simulation, then our design on gate-level is correct and hence our NETLIST is correct. 
