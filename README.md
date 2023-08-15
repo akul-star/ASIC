@@ -541,10 +541,17 @@ In this section we are going to have a walk through to our library. We have alre
 
 - Temperature: Temperature refers to the operating temperature of the digital circuit. Temperature variations can affect the electrical properties of the transistors and interconnects, which in turn can impact the circuit's performance. Standard cell libraries are characterized at specific temperature points to ensure that the circuit operates correctly across a range of temperatures.
 
+The PVT parameters decide how the silicon will work ib different enviorments. If it will work fast or slow, Power dissipation will be high or low, etc.
+
+Now let us open the standard sell library inside the **vim** text editor and explore it. Give the below command to open the vim file for the library.
+
+```
+gvim ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
 
  
   </details>
-<details>
+
 
 
 
