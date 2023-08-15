@@ -560,6 +560,12 @@ This is a 2-input AND gate and a 4-input NOR gate. Within the .lib file, sevetra
 
 Now we will comapre a simple AND gate and it's different flavours. and2_0, and2_1 and and2_2 are three standard models available with the same output but having different area. This means their delay and power will be different as well.
 
+
+![area_dep](https://github.com/akul-star/ASIC/assets/75561390/a9359bb5-6279-43b0-be4e-be92bc5e64ba)
+---
+- AREA: and2_0 < and2_1 < and2_2
+- POWER: and2_0 < and2_1 < and2_2
+- DELAY: and2_0 > and2_1 > and2_2
  </details>
 
 ## REFERENCES
