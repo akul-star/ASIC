@@ -576,6 +576,10 @@ Now we will comapre a simple AND gate and it's different flavours. and2_0, and2_
 ```
 gvim multiple_modules.v
 ```
+![multiplemodule](https://github.com/akul-star/ASIC/assets/75561390/cc1bf4f6-1561-4399-9ec6-02bc722661b3)
+---
+
+As we can see, their are two sub-modules AND called u1 & OR gate calles u2 instantiated to do the synthesis. The below circuit shows how to inputs and outputs connect to use AND & OR gate.
 
   
 </details>
