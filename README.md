@@ -568,7 +568,8 @@ Now we will comapre a simple AND gate and it's different flavours. and2_0, and2_
 - DELAY: and2_0 > and2_1 > and2_2
  </details>
 
- <details>
+  
+  <details>
  <summary> Hierarchical vs Flat Synthesis </summary>
 </details>
 
