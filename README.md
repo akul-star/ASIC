@@ -551,11 +551,15 @@ gvim ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ---
 ![libgvim](https://github.com/akul-star/ASIC/assets/75561390/a84f6ca2-00f9-4020-8b52-d9d0fcf34c5d)
 
-As we can observe, in the first few lines unit of every parameter is mentioned above that is used to represent different data for different standard cells. The library we just opened will have all the standard cells and different parameters for each of the standard cell. Now let us discuss any one of the standard cell and what kind of information is memtiones about the standard cells. Give the command below to open the verilog model of the standard cell.
+As we can observe, in the first few lines unit of every parameter is mentioned above that is used to represent different data for different standard cells. The library we just opened will have all the standard cells and different parameters for each of the standard cell. Now let us discuss any one of the standard cell and what kind of information is memtiones about the standard cells. Give the command below to open the verilog model of the standard cell a2111o which mean it's a 2 input AND gate which further gived input to 3 OR gates, making it a 5 input and single output model.
 
 ```
-sp ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+:sp ../my_lib/verilog_model/sky130_fd_sc_hd__a2111o.behavioral.v
 ```
+This is a 2-input AND gate and a 4-input NOR gate. Within the .lib file, sevetral parameters specific to this particular standard cell is given, including leakage power values for every possible input combination, specifications regarding pin type and pin capacitances, internal power metrics, timing-related particulars, as well as area measurements and power-related specifics for the standard cells. Similarly for all the standard cells the parameters above mentioned is listed in the .lib file.
+
+Now we will comapre a simple AND gate and it's different flavours. and2_0, and2_1 and and2_2 are three standard models available with the same output but having different area. This means their delay and power will be different as well.
+
  </details>
 
 ## REFERENCES
