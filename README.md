@@ -554,6 +554,11 @@ gvim ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
  
   </details>
 
+As we can observe, in the first few lines unit of every parameter is mentioned above that is used to represent different data for different standard cells. The library we just opened will have all the standard cells and different parameters for each of the standard cell. Now let us discuss any one of the standard cell and what kind of information is memtiones about the standard cells. Give the command below to open the verilog model of the standard cell.
+
+```
+sp ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
 
 
 
