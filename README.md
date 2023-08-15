@@ -548,6 +548,8 @@ Now let us open the standard sell library inside the **vim** text editor and exp
 ```
 gvim ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
+---
+![libgvim](https://github.com/akul-star/ASIC/assets/75561390/a84f6ca2-00f9-4020-8b52-d9d0fcf34c5d)
 
  
   </details>
