@@ -527,6 +527,7 @@ write_verilog -noattr good_mux_netlist.v
 ## DAY-2: Timing libs, hierarchical vs flat synthesis and efficient flop coding styles
 
  <summary> Introduction To Timing.libs</summary>
+
 In this section we are going to have a walk through to our library. We have already seen what .lib files do and why they are important in synthesis. The libarary file we have has been named  sky130_fd_sc_hd__tt_025c_1v80.lib .  
 
  ![PVT](https://github.com/akul-star/ASIC/assets/75561390/6d71d686-eb9d-4953-b5f1-01ab96b36c38)
