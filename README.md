@@ -1,4 +1,4 @@
-# ASIC
+# ASIC (Application Specific Integrated Circuit)
 
 ---
 ASIC stands for "Application-Specific Integrated Circuit." It is a type of integrated circuit (IC) that is designed and manufactured for a specific application or purpose. Unlike general-purpose microprocessors or other programmable devices, ASICs are optimized to perform a specific set of tasks, functions, or operations.
