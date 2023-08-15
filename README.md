@@ -529,7 +529,17 @@ write_verilog -noattr good_mux_netlist.v
  <summary> Introduction To Timing.libs</summary>
 In this section we are going to have a walk through to our library. We have already seen what .lib files do and why they are important in synthesis. The libarary file we have has been named  sky130_fd_sc_hd__tt_025c_1v80.lib .  
 
- ---
+ ![PVT](https://github.com/akul-star/ASIC/assets/75561390/6d71d686-eb9d-4953-b5f1-01ab96b36c38)
+ --- 
+- The naming of the library file is according the concept of PVT in a standard cell file.In the context of a standard cell library file used in digital circuit design, "PVT" stands for Process, Voltage, and Temperature. It refers to the various conditions under which a digital circuit is designed and characterized. Let's break down each component:
+
+- Process: This refers to the specific manufacturing process used to create the integrated circuits (ICs) on a semiconductor wafer. Different manufacturing processes can have variations in parameters such as transistor sizes, dopant concentrations, and oxide thickness. These variations can affect the performance and characteristics of the digital circuits.
+
+- Voltage: Voltage represents the supply voltage at which the digital circuit operates. Different voltage levels can impact the power consumption, speed, and reliability of the circuit. Standard cell libraries often provide cells that are optimized for different voltage levels, allowing designers to choose the appropriate cells based on their design requirements.
+
+- Temperature: Temperature refers to the operating temperature of the digital circuit. Temperature variations can affect the electrical properties of the transistors and interconnects, which in turn can impact the circuit's performance. Standard cell libraries are characterized at specific temperature points to ensure that the circuit operates correctly across a range of temperatures.
+
+
  
   </details>
 <details>
