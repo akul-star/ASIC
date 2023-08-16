@@ -571,7 +571,9 @@ Now we will comapre a simple AND gate and it's different flavours. and2_0, and2_
   
   <details>
  <summary> Hierarchical vs Flat Synthesis </summary>
- In this section, we will discuss the hierarchical and flat synthesis and how they are different and how their netlist looks like. Let's take an example of a circuit with multiple modules. To open the verilog file in VIM editor, give the below command.
+
+   ---
+In this section, we will discuss the hierarchical and flat synthesis and how they are different and how their netlist looks like. Let's take an example of a circuit with multiple modules. To open the verilog file in VIM editor, give the below command.
 
 ```
 gvim multiple_modules.v
